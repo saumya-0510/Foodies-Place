@@ -7,7 +7,7 @@ app.use(express.static('public/build'));
 // Middleware function => POST
 // Frontend json to JS object
 app.use(express.json());
-const port=process.env.PORT || 5000;
+const port=process.env.PORT || 3000;
 app.listen(port,function(){
     console.log(`server listening on port ${port}`); 
 });
